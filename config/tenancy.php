@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 
-use App\Models\Domain;
-use App\Models\Tenant;
+use App\Models\tenant\Domain;
+use App\Models\tenant\Tenant;
 
 return [
     'tenant_model' => Tenant::class,

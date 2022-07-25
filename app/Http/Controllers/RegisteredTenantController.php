@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Auth\RegisterTenantRequest;
-use App\Models\Tenant;
-use Illuminate\Http\Request;
+use App\Models\tenant\Tenant;
 
 class RegisteredTenantController extends Controller
 {
